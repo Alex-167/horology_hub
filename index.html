@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Horology Hub | Luxury Watches</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+    <header>
+        <h1>Horology Hub</h1>
+        <nav>
+            <a href="#collection">Collection</a> | 
+            <a href="#comparison">Specs</a> | 
+            <a href="#order">Order Now</a> | 
+            <a href="#news">Latest News</a>
+        </nav>
+    </header>
+
+    <hr>
+
+    <section id="collection">
+        <h2>Featured: The Chrono-Master</h2>
+        <p>Experience <b>precision</b> like never before. Our watches use <i>Swiss movement</i> technology.</p>
+        
+        <img src="https://images.unsplash.com/photo-1523275335684-37898b6baf30?auto=format&fit=crop&w=400" alt="Luxury Watch" width="300">
+        
+        <h3>Key Features</h3>
+        <ul type="square">
+            <li>Water resistant up to 100m</li>
+            <li>Sapphire Crystal Glass</li>
+            <li>Stainless Steel Bracelet</li>
+        </ul>
+
+        <h4>Watch Sound & Showcase</h4>
+        <audio controls>
+            <source src="https://www.w3schools.com/html/horse.ogg" type="audio/ogg">
+            Your browser does not support the audio tag.
+        </audio>
+        <br>
+        <video width="320" height="240" controls>
+            <source src="https://www.w3schools.com/html/mov_bbb.mp4" type="video/mp4">
+            Your browser does not support the video tag.
+        </video>
+    </section>
+
+    <hr>
+
+    <section id="comparison">
+        <h2>Watch Comparison</h2>
+        <table border="1" cellpadding="10" cellspacing="0">
+            <tr>
+                <th>Model</th>
+                <th>Type</th>
+                <th>Price</th>
+            </tr>
+            <tr>
+                <td>Classic Gold</td>
+                <td>Analog</td>
+                <td>$250</td>
+            </tr>
+            <tr>
+                <td>Tech-Sport</td>
+                <td>Digital</td>
+                <td>$150</td>
+            </tr>
+        </table>
+    </section>
+
+    <hr>
+
+    <section id="news">
+        <h2>Industry News</h2>
+        <p>Below is a frame displaying external content or sub-pages:</p>
+        <iframe src="https://www.wikipedia.org/wiki/Watch" width="100%" height="300px" name="news_frame"></iframe>
+    </section>
+
+    <hr>
+
+    <section id="order">
+        <h2>Place Your Order</h2>
+        <form id="watchForm">
+            <label>Name:</label><br>
+            <input type="text" id="userName" placeholder="Enter full name"><br><br>
+
+            <label>Select Watch Model:</label><br>
+            <input type="radio" name="model" value="250" id="gold"> Classic Gold ($250)<br>
+            <input type="radio" name="model" value="150" id="sport"> Tech-Sport ($150)<br><br>
+
+            <label>Add-ons:</label><br>
+            <input type="checkbox" id="giftWrap" value="10"> Gift Wrap (+$10)<br>
+            <input type="checkbox" id="warranty" value="20"> Extra Warranty (+$20)<br><br>
+
+            <label>Special Instructions:</label><br>
+            <textarea rows="4" cols="30">None.</textarea><br><br>
+
+            <input type="button" value="Calculate Total" onclick="calculateTotal()">
+            <input type="reset" value="Clear Form">
+        </form>
+
+        <div id="resultArea"></div>
+    </section>
+
+    <footer>
+        <p>&copy; 2024 Horology Hub. All rights reserved.</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>

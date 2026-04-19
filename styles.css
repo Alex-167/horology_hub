@@ -1,0 +1,56 @@
+/* Basic Structure and Background */
+body {
+    background-color: #f4f4f4;
+    background-image: url('https://www.transparenttextures.com/patterns/carbon-fibre.png'); /* Pattern background */
+    font-family: 'Arial', sans-serif;
+    color: #333;
+    margin: 40px;
+    line-height: 1.6;
+}
+
+/* Manipulating Text & Fonts */
+header h1 {
+    color: #b8860b; /* Goldenrod */
+    text-align: center;
+    text-transform: uppercase;
+    border-bottom: 2px solid #333;
+}
+
+/* Navigation Links */
+nav a {
+    text-decoration: none;
+    color: #444;
+    font-weight: bold;
+    padding: 5px 10px;
+}
+
+nav a:hover {
+    background-color: #b8860b;
+    color: white;
+}
+
+/* Borders, Boxes, Margins, and Padding */
+section {
+    background: #ffffff;
+    padding: 20px;
+    margin-bottom: 20px;
+    border: 1px solid #ddd;
+    border-radius: 8px; /* Rounded corners */
+}
+
+/* Table Styling */
+table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+th {
+    background-color: #333;
+    color: white;
+}
+
+/* List Styling */
+ul {
+    border-left: 5px solid #b8860b;
+    padding-left: 30px;
+}
